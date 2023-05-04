@@ -13,11 +13,12 @@ public class Pedido {
         this.itens.add(pi);
     }
     
-    public PedidoItem removeItem(PedidoItem item) {
-        if (this.itens.contains(item)) {
-            this.itens.remove(item);
+    public Produto removeItem(Produto produto, int quantidade) {
+        PedidoItem PedidoItem = new PedidoItem(produto, 2);
+        if (this.itens.contains(produto)) {
+            this.itens.remove(produto);
         }
-        return item;
+        return produto;
     }
     
     public double calculaValorTotal() {

@@ -35,11 +35,11 @@ public class App {
         System.out.println("Telefone: (" + cliente.getTelefone().getDdd() 
             + ") " + cliente.getTelefone().getNumero());*/
         
-        PedidoItem pedidoItem = new PedidoItem(produto, quantidade);
+        PedidoItem pedidoItem = new PedidoItem();
         pedidoItem.setProduto(produto);
         pedidoItem.setQuantidade(2);
         
-        PedidoItem pedidoItem2 = new PedidoItem(produto, quantidade);
+        PedidoItem pedidoItem2 = new PedidoItem();
         pedidoItem2.setProduto(produto2);
         pedidoItem2.setQuantidade(5);
         

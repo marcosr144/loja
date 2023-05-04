@@ -2,9 +2,6 @@ package loja;
 
 
 public class PedidoItem {
-
-    public PedidoItem(Produto produto1, int quantidade1) {
-    }
     private int quantidade;
     private double subtotal;
     private Produto produto;
